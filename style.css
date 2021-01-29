@@ -1,0 +1,105 @@
+/*---------> Global <--------*/
+:root {
+    --dark-blue:#363f5f
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f2f5;
+    font-family: "poppins", "sans-serif";
+}
+
+.container{
+    width: min(90vw,800px);
+    margin: auto;
+}
+/*---------> Title h2 <--------*/
+#balance h2{
+    color: white
+    
+
+}
+#transaction h2{
+    color:var(--dark-blue);
+    margin-top: 2rem;
+    margin-bottom: 1rem; 
+}
+/*---------> Header <--------*/
+header{
+    background-color: #2d4a22;
+    padding: 2rem 0 10rem;
+    text-align: center;
+}
+h1{
+    color: white;
+    font-weight: 100;
+}
+/*---------> Cards <--------*/
+.cards{
+    background-color: white;
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+    margin: 2rem;
+}
+.cards h3{
+    font-weight: 100;
+}
+.cards p{
+    font-size: 2rem;
+    line-height: 1 rem;
+}
+
+.cards.total{
+    background-color: green;
+    color: white;
+}
+
+/*---------> Balance <--------*/
+#balance{
+    margin-top: -8rem;
+}
+
+/*---------> Transactions <--------*/
+/*---------> table <--------*/
+#data-table{
+    width: 100%;
+    border-spacing: 0.5rem;
+}
+
+table th{
+    background-color: white;
+    opacity: 0.6;
+    color: #969cb3;
+    font-weight: 100;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+}
+table th:hover{
+    opacity: 1;
+}
+table td{
+    background-color: white;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+table td:hover{
+    opacity: 0.5;
+}
+td.description {
+    color: var(--dark-blue);
+}
+td.income{
+    color: green;
+    
+}
+td.expense{
+    color: red;
+}
+footer{
+    text-align: center;
+    margin: 2rem;
+}
